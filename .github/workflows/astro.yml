@@ -12,6 +12,7 @@ permissions:
 
 jobs:
     build:
+        if: github.repository == 'chsami/Microbot-docs'
         runs-on: ubuntu-latest
         steps:
             - name: Checkout your repository using git
@@ -23,6 +24,7 @@ jobs:
                 path: ./astro/
                 package-manager: pnpm@latest
     deploy:
+        if: github.repository == 'chsami/Microbot-docs'
         needs: build
         runs-on: ubuntu-latest
         environment:

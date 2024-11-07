@@ -5,7 +5,7 @@ export const SITE = {
   tagline: "The best open source client on the market, check out our github!",
   description: "Microbot is the golden standard of open source automated clients based on runelite. It uses a plugin system to enable scripting. Check out our youtube channel for examples of our scripts",
   description_short: "Microbot offers top-tier software tools and expert services to meet all your project needs.",
-  url: "https://microbot.kbve.com",
+  url: "https://docs.themicrobot.com",
   author: "Microbot Team",
 };
 
