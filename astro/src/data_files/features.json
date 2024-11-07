@@ -1,0 +1,22 @@
+[
+  {
+    "heading": "Dedicated Dev Teams",
+    "content": "Partner with our dedicated team of developers, focused on bringing your project to life. From plugin customization to seamless integration, expect expert support every step of the way.",
+    "svg": "groups"
+  },
+  {
+    "heading": "Open Source and Free",
+    "content": "Experience the power of the best open-source, free client. Built by the community, for the community, it offers robust features without the cost, keeping gameplay accessible for everyone.",
+    "svg": "verified"
+  },
+  {
+    "heading": "Comprehensive Documentation",
+    "content": "Navigate development with ease using our extensive documentation. From setup to advanced features, our guides and resources ensure a smooth experience for developers at every level.",
+    "svg": "books"
+  },
+  {
+    "heading": "User-Centric Design",
+    "content": "Enjoy a seamless experience with user-focused design — crafted to enhance gameplay with intuitive features and practical tools for every player.",
+    "svg": "frame"
+  }
+]

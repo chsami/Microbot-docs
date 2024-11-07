@@ -1,0 +1,25 @@
+{
+  "subTitle": "Ask us anything about our software, scripts and community.",
+  "faqs": [
+    {
+      "question": "What types of tools are included in the Microbot?",
+      "answer": "Microbot is built on the RuneLite client and includes a suite of automation plugins and scripts. These tools are designed to enhance gameplay and streamline in-game tasks, offering a powerful base for players looking to customize and automate their RuneLite experience."
+    },
+    {
+      "question": "Can I get started really quickly?",
+      "answer": "Absolutely! Getting started is straightforward. Simply download the Microbot client and ensure Java is installed on your system. If you’re using a Jagex account, you might also need the Jagex launcher for initial setup. Follow our step-by-step guide, and you’ll be ready to start automating in no time!"
+    },
+    {
+      "question": "What plugins are already included?",
+      "answer": "Microbot includes the default RuneLite plugins along with a collection of custom plugins developed by the community. These plugins are designed to enhance gameplay and support various automation features, providing powerful tools for an optimized in-game experience."
+    },
+    {
+      "question": "What kind of user support can I expect?",
+      "answer": "Users can get support directly through our Discord server or by submitting issues on our GitHub page. For the quickest assistance, joining our Discord and using the help and support channel is highly recommended. Our community and team are active and ready to help resolve any issues you encounter."
+    },
+    {
+      "question": "How current are the online resources and tutorials?",
+      "answer": "Our online resources and tutorials are frequently updated to reflect the latest changes in the RuneLite client and Microbot’s custom plugins. We strive to keep all documentation current and user-friendly, ensuring developers and users can easily stay informed about new features and improvements."
+    }
+  ]
+}
