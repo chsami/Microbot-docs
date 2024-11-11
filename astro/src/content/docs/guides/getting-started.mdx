@@ -1,0 +1,115 @@
+---
+title: Getting Started
+description: Explore Micrbot's comprehensive documentation for an in-depth look at our tools and scripts. 
+sidebar:
+  label: Getting Started
+  order: 1
+---
+
+import {
+  Card,
+  CardGrid,
+  LinkCard,
+  Steps,
+  Aside,
+  Tabs,
+  TabItem,
+} from "@astrojs/starlight/components";
+
+import { YouTube } from 'astro-embed';
+
+
+Welcome to Microbot Docs!
+We're thrilled to support your journey with our powerful development tools.
+This guide will introduce you to our toolset, walk you through the basics, and prepare you for your first project.
+Let’s dive into the world of high-quality, reliable automation with Microbot.
+
+
+## Setup Instructions
+
+<Steps>
+
+1.  📦 Download the Microbot Client & Java  
+    Visit the [Microbot GitHub Releases](https://github.com/chsami/microbot/releases) page to download the latest client snapshot **SHADED** release build. You’ll also find nightly builds, which are unstable development versions—recommended only if you’re exploring experimental features.
+
+    <YouTube id="EbtdZnxq5iw" />
+
+2.  Jagex Account
+    Youtube video explaining microbot with jagex accounts: 
+    <YouTube id="ga-lg1oAnhM" />
+
+    If you don't have java installed yet, watch the youtube video in step 1.
+
+    - Simply login with the jagex launcher for the first time. This will create a token for your account. Close everything after succesfully login in through the jagex launcher.
+    
+    - Open the shaded.jar from microbot and this should prompt you with the jagex account to login.
+
+
+3.  Jagex Launcher
+  
+    If you don't have java installed yet, watch the youtube video in step 1.
+
+    Simply replace the Official RuneLite.jar with the microbot.jar and make sure the name is the same!
+    
+    After that you can start up the jagex launcher and select runelite, this will startup microbot.
+
+4.  Run Microbot on Linux
+
+    Make sure you have Java installed, get it from your package manager.
+    Run the "shaded" .jar from the nightly build with: 
+    ```bash
+    java --jar client-1.10.26-SNAPSHOT-shaded.jar
+    ```
+    If you have a Jagex account, download and run Bolt launcher (https://github.com/Adamcake/Bolt). 
+    After signing in, run the "shaded" .jar by enabling "Use custom RuneLite JAR" and navigating to the Microbot .jar.
+    Download and extract the RuneLite AppImage. Replace RuneLite.jar with the Microbot one. Run RuneLite
+
+</Steps>
+
+
+## Help
+
+<Aside type="tip">
+  Check out our discord if you are stuck!
+  [Discord](https://discord.gg/zaGrfqFEWE)
+</Aside>
+
+Additional information will be added here for getting it all started.
+
+## Tools Overview
+
+
+<CardGrid>
+  <Card title="Automation Toolkit" icon="seti:config">
+    A comprehensive set of tools to kickstart automation workflows and optimize performance.
+    <LinkCard title="Learn More" href="/guides/getting-started" />
+  </Card>
+  <Card title="Script Engine" icon="seti:pipeline">
+    Execute and manage scripts with powerful, customizable options for efficient task handling.
+    <LinkCard title="Learn More" href="/guides/getting-started" />
+  </Card>
+  <Card title="Data Processing Module" icon="seti:crystal">
+    Process data with precision, offering flexible configurations for varied data types and structures.
+    <LinkCard title="Learn More" href="/guides/getting-started" />
+  </Card>
+</CardGrid>
+
+## Additional Resources
+
+<LinkCard
+  title="In-depth Tutorials"
+  description="Deep dive into using our tools with expert-led tutorials."
+  href="/guides/getting-started"
+/>
+
+<LinkCard
+  title="Video Demos"
+  description="Visual guides to get the most out of your tools."
+  href="/guides/getting-started"
+/>
+
+<LinkCard
+  title="AntiBan Information"
+  description="Understand your risks."
+  href="/guides/getting-started"
+/>
